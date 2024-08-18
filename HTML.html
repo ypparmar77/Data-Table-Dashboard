@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Product List</title>
+</head>
+
+<body>
+    <div id="man">
+        <div id="a1">
+            <span id="totalPrice">Total: $0.00</span>
+        </div>
+        <div id="a2">
+            <span id="totalProducts">Total Products: 0</span>
+        </div>
+        <div id="a3">
+            <span id="statusCount">Available: 0, Out of Stock: 0</span>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="filter">
+        <label for="nameFilter">Search by Name:</label>
+        <input type="text" id="nameFilter" placeholder="Enter product name...">
+    </div>
+    <table id="productTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Permissions</th>
+                <th>Status</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be added here dynamically -->
+        </tbody>
+    </table>
+
+</body>
+</html>
